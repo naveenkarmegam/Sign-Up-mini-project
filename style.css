@@ -1,0 +1,59 @@
+body{
+    background-image: url("bg5.jpg");
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container{
+    width: 500px;
+    margin: 250px auto 250px auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 10px 20px 30px;
+    font-size: 30px;
+    border-radius: 10px;
+}
+.container h3 {
+    text-align: center;
+    color: #e29578;
+    
+}
+.boxlabel {
+    display: block;
+
+}
+.input input{
+    width: 100%;
+    font-size: 1.2em;
+    border: 1px solid #006d77;
+    border-radius: 8px;
+    padding: 10px 10px;
+    box-sizing: border-box;
+    margin:5px 0px 15px;
+}
+input:focus {
+    background-color: wheat;
+}
+
+.button {
+    text-align: center;
+
+}
+button {
+    background-color: #006d77;
+    font-size: 30px;
+    border-radius: 8px;
+    border: 1px solid #006d77;
+    box-shadow: 2px;
+    color: white;
+    margin-top: 20px;
+    padding: 15px 25px;
+
+}
+.radio input {
+    accent-color: #83c5be;
+    transform: scale(1.5);
+    -ms-transform: (1.5);
+    -webkit-transform: (1.5);
+}
+button:hover {
+    background-color: brown;
+}
